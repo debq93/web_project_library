@@ -93,7 +93,7 @@
   background-image: url("../images/staff_picks_background.jpg");
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 100% auto;
+  background-size: cover;
   padding: 100px 0 140px;
 }
 
@@ -157,7 +157,124 @@
 
 .card__footer {
   margin-top: auto;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
+}
+
+.events {
+  padding: 100px 0;
+}
+
+.events__content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.events__cover {
+  height: 780px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.events__image {
+  width: 386px;
+}
+
+.person {
+  position: absolute;
+}
+
+.person__caption {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.person__image {
+  display: block;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+}
+
+.person__image_size_l {
+  width: 186px;
+  height: 186px;
+}
+
+.person__image_size_m {
+  width: 125px;
+  height: 125px;
+}
+
+.person__image_size_s {
+  width: 79px;
+  height: 79px;
+}
+
+.person_name_feynman {
+  top: 319px;
+  left: 159px;
+}
+
+.person_name_burbidge {
+  top: 96px;
+  right: 216px;
+}
+
+.person_name_jump {
+  bottom: 142px;
+  right: 82px;
+}
+
+.person_name_mitchell {
+  top: -30px;
+  left: 125px;
+}
+
+.person_name_tarter {
+  top: 79px;
+  left: 142px;
+}
+
+.events__details {
+  position: absolute;
+  left: 720px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 400px;
+}
+
+.events__details h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.events__details h2 {
+  margin: 0 0 32px;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+}
+
+.events__details p {
+  margin: 0 0 32px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.events__link {
+  display: inline-block;
+  color: #2f80ed;
+  text-decoration: none;
+  font-weight: bold;
 }
