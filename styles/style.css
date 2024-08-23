@@ -166,7 +166,7 @@
 }
 
 .events {
-  padding: 100px 0 120px 80px;
+  padding: 100px 0px;
   display: flex;
   align-items: start;
   justify-content: space-between;
@@ -175,14 +175,14 @@
 }
 
 .events__content {
-  flex-basis: 580px;
+  max-width: 1440px;
 }
 
 .events__heading {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .events__title {
@@ -234,7 +234,7 @@
 }
 
 .events__image {
-  width: 100%;
+  width: 386px;
 }
 
 .person {
@@ -243,9 +243,11 @@
 }
 
 .person__caption {
-  text-align: center;
-  font-size: 14px;
   margin: 32px 0 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
 }
 
 .person__image {
@@ -255,18 +257,18 @@
 }
 
 .person__image_size_l {
-  width: 140px;
-  height: 140px;
+  width: 186px;
+  height: 186px;
 }
 
 .person__image_size_m {
-  width: 100px;
-  height: 100px;
+  width: 125px;
+  height: 125px;
 }
 
 .person__image_size_s {
-  width: 80px;
-  height: 80px;
+  width: 79px;
+  height: 79px;
 }
 
 .person_name_feynman {
@@ -279,9 +281,9 @@
   right: 125px;
 }
 
-.person_name_cannon {
+.person_name_jump {
   right: 216px;
-  bottom: 86px;
+  bottom: 18px;
 }
 
 .person_name_mitchell {
@@ -292,4 +294,39 @@
 .person_name_tarter {
   top: 79px;
   left: 159px;
+}
+
+.events__details {
+  position: absolute;
+  left: 720px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 400px;
+}
+
+.events__details h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.events__details h2 {
+  margin: 0 0 32px;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+}
+
+.events__details p {
+  margin: 0 0 32px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.events__link {
+  display: inline-block;
+  color: #2f80ed;
+  text-decoration: none;
+  font-weight: bold;
 }
