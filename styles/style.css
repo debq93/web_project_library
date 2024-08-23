@@ -166,7 +166,7 @@
 }
 
 .events {
-  padding: 100px 0px;
+  padding: 100px 0 120px 80px;
   display: flex;
   align-items: start;
   justify-content: space-between;
@@ -175,14 +175,14 @@
 }
 
 .events__content {
-  max-width: 1440px;
+  flex-basis: 580px;
 }
 
 .events__heading {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .events__title {
@@ -234,7 +234,7 @@
 }
 
 .events__image {
-  width: 386px;
+  width: 100%;
 }
 
 .person {
@@ -243,32 +243,28 @@
 }
 
 .person__caption {
-  margin: 32px 0 0;
-  font-size: 20px;
-  font-weight: 500;
-  color: #000;
   text-align: center;
+  font-size: 14px;
+  margin: 0;
 }
 
 .person__image {
-  display: block;
   border-radius: 50%;
-  background-color: #c4c4c4;
 }
 
 .person__image_size_l {
-  width: 186px;
-  height: 186px;
+  width: 140px;
+  height: 140px;
 }
 
 .person__image_size_m {
-  width: 125px;
-  height: 125px;
+  width: 100px;
+  height: 100px;
 }
 
 .person__image_size_s {
-  width: 79px;
-  height: 79px;
+  width: 80px;
+  height: 80px;
 }
 
 .person_name_feynman {
@@ -287,46 +283,11 @@
 }
 
 .person_name_mitchell {
-  bottom: 140px;
   left: 142px;
+  bottom: 82px;
 }
 
 .person_name_tarter {
   top: 79px;
   left: 159px;
-}
-
-.events__details {
-  position: absolute;
-  left: 720px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 400px;
-}
-
-.events__details h3 {
-  margin: 0 0 10px;
-  font-size: 20px;
-  font-weight: 500;
-  color: #000;
-}
-
-.events__details h2 {
-  margin: 0 0 32px;
-  font-size: 44px;
-  line-height: 52px;
-  font-weight: 500;
-}
-
-.events__details p {
-  margin: 0 0 32px;
-  font-size: 18px;
-  line-height: 27px;
-}
-
-.events__link {
-  display: inline-block;
-  color: #2f80ed;
-  text-decoration: none;
-  font-weight: bold;
 }
