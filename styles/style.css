@@ -282,12 +282,12 @@
   bottom: 120px;
 }
 
-.person_name_mitchell {
-  left: 142px;
-  bottom: 182px;
-}
-
 .person_name_tarter {
   top: 79px;
   left: 159px;
+}
+
+.person_name_mitchell {
+  left: 142px;
+  bottom: 182px;
 }
