@@ -295,7 +295,7 @@
 }
 
 .membership {
-  padding: 100px 0 140px;
+  padding: 100px 0 100px 0px;
   background-color: #057bf2;
   color: #ffffff;
 }
@@ -343,6 +343,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   padding: 60px 80px 60px 80px;
+  color: white;
 }
 
 .footer__columns {
@@ -381,10 +382,6 @@
   margin-bottom: 16px;
 }
 
-.footer__list-item {
-  margin-bottom: 0;
-}
-
 .footer__column-link {
   color: white;
   text-decoration: none;
@@ -399,8 +396,7 @@
 }
 
 .footer__copyright {
-  margin-top: 60px;
-  margin-bottom: 100px;
+  margin: 108px 0 0;
   color: white;
 }
 
