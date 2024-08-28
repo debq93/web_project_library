@@ -228,9 +228,11 @@
 }
 
 .events__cover {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 780px;
+  max-width: 780px;
   position: relative;
-  width: 780px;
-  height: 680px;
 }
 
 .events__image {
@@ -239,7 +241,10 @@
 
 .person {
   position: absolute;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .person__caption {
@@ -249,22 +254,19 @@
 }
 
 .person__image {
-  border-radius: 50%;
+  max-width: 100%;
 }
 
 .person__image_size_l {
   width: 140px;
-  height: 140px;
 }
 
 .person__image_size_m {
   width: 100px;
-  height: 100px;
 }
 
 .person__image_size_s {
   width: 80px;
-  height: 80px;
 }
 
 .person_name_feynman {
@@ -277,14 +279,14 @@
   right: 125px;
 }
 
-.person_name_jump {
+.person_name_cannon {
   right: 216px;
-  bottom: 120px;
+  bottom: 18px;
 }
 
 .person_name_mitchell {
   left: 142px;
-  bottom: 182px;
+  bottom: 82px;
 }
 
 .person_name_tarter {
