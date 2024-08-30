@@ -295,7 +295,7 @@
 }
 
 .membership {
-  padding: 100px 0 100px 0;
+  padding: 100px 0 140px;
   background-color: #057bf2;
   color: #ffffff;
 }
@@ -359,7 +359,7 @@
 }
 
 .footer__column_content_social {
-  margin-left: 0;
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -397,8 +397,7 @@
 }
 
 .footer__copyright {
-  margin: 108px 0 0;
-  color: white;
+  margin-top: 100px;
 }
 
 .footer__column_content_social .footer__list {
